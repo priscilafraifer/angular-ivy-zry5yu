@@ -10,4 +10,8 @@ export class TabuadaComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  tabuada() {
+    this.counter + 5;
+  }
 }
