@@ -12,6 +12,6 @@ export class TabuadaComponent implements OnInit {
   ngOnInit() {}
 
   tabuada() {
-    this.counter + 5;
+    this.counter++;
   }
 }
