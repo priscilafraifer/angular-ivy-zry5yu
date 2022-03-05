@@ -19,7 +19,13 @@ import { TabuadaComponent } from './tabuada/tabuada.component';
       { path: 'tabuada', component: TabuadaComponent },
     ]),
   ],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    HomeComponent,
+    AboutComponent,
+    TabuadaComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

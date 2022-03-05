@@ -1,3 +1,8 @@
 <h2>Contador</h2>
 <p>{{ counter }}&nbsp;<button (click)="add()">Adicionar número</button></p>
 <h3>Tabuada</h3>
+<table>
+  <tr ngFor="let n of getRandomNumbers()">
+    <td>{{n}}</td>
+  </tr>
+</table>
